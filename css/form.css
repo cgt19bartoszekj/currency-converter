@@ -50,7 +50,7 @@
     color: #e8eaed;
     border-radius: 10px;
     background: none;
-    overflow-wrap: break-word;
+    word-wrap: break-word;
 }
 
 .form__select {
