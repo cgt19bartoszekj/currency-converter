@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przelicznik walutowy</title>
+    <meta property="og:image" content="images/currency-converter-share-image.png">
+    <link rel="icon" href="images/currency-converter-website.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/converter.css">
+    <link rel="stylesheet" href="css/form.css">
+    <script defer src="js/script.js"></script>
+</head>
+
+<body class="body">
+    <div class="converter">
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Przelicznik walutowy</legend>
+                <div class="form__mainCurrency">
+                    <input class="form__input js-amount" type="number" value="0">
+                    <span class="form__currancyName">PLN</span>
+                </div>
+                <div class="form__convertedCurrency">
+                    <span role="textbox" class="form__result js-result">0.00</span>
+                    <select class="form__select js-currency" name="currency" id="currency">
+                        <option class="form__option">EUR</option>
+                        <option class="form__option">USD</option>
+                        <option class="form__option">CZK</option>
+                    </select>
+                </div>
+                <span class="form__information">Kursy walut na dzień 23.02.2023r.</span>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>

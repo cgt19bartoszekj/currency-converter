@@ -1,0 +1,76 @@
+.form__fieldset {
+    border: 1px solid #b3b3b3;
+    border-radius: 50px;
+    background-color: #00000090;
+    box-shadow: #000000 0 0 20px;
+}
+
+.form__legend {
+    background-color: #000000;
+    border-radius: 30px;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.form__mainCurrency {
+    margin: 20px 0 0 0;
+}
+
+.form__convertedCurrency {
+    margin: 20px 0 0 0;
+    width: 100%;
+}
+
+.form__input {
+    width: 35%;
+    color: #e8eaed;
+    border: 1px solid #ffffff90;
+    border-radius: 10px;
+    padding: 0 10px;
+    background: #00000090;
+}
+
+.form__input:focus-visible {
+    outline: 2px solid #8ab4f8;
+}
+
+.form__input--wrong.form__input--wrong {
+    outline: 2px solid #ff0000;
+}
+
+.form__currancyName {
+    font-size: 25px;
+    color: #bdc1c6;
+}
+
+.form__result {
+    width: 100%;
+    font-size: 70px;
+    width: 100%;
+    color: #e8eaed;
+    border-radius: 10px;
+    background: none;
+    overflow-wrap: break-word;
+}
+
+.form__select {
+    cursor: pointer;
+    color: #bdc1c6;
+    border: none;
+    background: none;
+}
+
+.form__option {
+    background-color: #1a1a1d;
+    color: #a0a3a7;
+}
+
+.form__information {
+    font-size: 17px;
+    text-align: center;
+    font-style: italic;
+    color: #b3b3b3;
+    text-shadow: #000000 0 0 5px;
+    display: inline-block;
+    width: 100%;
+}
