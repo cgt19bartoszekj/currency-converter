@@ -1,9 +1,9 @@
 {
     const calculateResult = (amount, currency) => {
 
-        let EUR = 0.21;
-        let USD = 0.22;
-        let CZK = 4.99;
+        const EUR = 0.21;
+        const USD = 0.22;
+        const CZK = 4.99;
 
         switch (currency) {
             case "EUR":
@@ -18,13 +18,13 @@
 
     const onFormInput = () => {
 
-        let amountElement = document.querySelector(".js-amount");
-        let currencyElement = document.querySelector(".js-currency");
-        let resultElement = document.querySelector(".js-result");
+        const amountElement = document.querySelector(".js-amount");
+        const currencyElement = document.querySelector(".js-currency");
+        const resultElement = document.querySelector(".js-result");
 
-        let amount = amountElement.value;
-        let currency = currencyElement.value;
-        let result = calculateResult(amount, currency);
+        const amount = amountElement.value;
+        const currency = currencyElement.value;
+        const result = calculateResult(amount, currency);
 
         if (amount > Math.pow(100, 9)) {
             resultElement.innerText = "Za duża wartość";
@@ -38,7 +38,7 @@
 
     const init = () => {
 
-        let formElement = document.querySelector(".js-form");
+        const formElement = document.querySelector(".js-form");
 
         formElement.addEventListener("input", onFormInput);
 
