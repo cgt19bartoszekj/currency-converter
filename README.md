@@ -11,7 +11,7 @@ This website lets you convert **PLN** to **EUR**, **USD** and **CZK**
 ## Features used in this project
 - HTML
 - CSS
-- Javvascript
+- Javascript
 - BEM Methology
 
 ## Additional information
